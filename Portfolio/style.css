@@ -1,0 +1,104 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #f8f9fa;
+
+}
+
+ul li a{
+	display: block;
+	color: black;
+}
+
+.navbar{
+	width: 100%;
+	margin: 100px auto;
+	height: 70px;
+	background: #19334c;
+	padding: 10px;
+	border-radius: 3px;
+    margin-top: 0px;
+}
+
+ul.menu,
+ul.social_items{
+	display: flex;
+}
+
+.navbar ul.menu a{
+	margin: 0 5px;
+	width: 120px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: all 0.2s ease;
+
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar .navbar_left{
+	display: flex;
+	align-items: center;
+}
+
+.navbar .menu{
+	margin-left: 25px;
+}
+
+.navbar.navbar .menu a{
+	height: 60px;
+	padding: 20px 12px;	
+}
+
+.navbar.navbar .menu a:hover{
+	border-bottom: 3px solid #D4A373;
+	
+}
+   .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	float: none;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	color: black;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+	background-color: #ddd;
+	font: black;
+	width: 10%;
+
+
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+  .slide {
+	width: 50%;
+	margin-left: 400px;
+  }

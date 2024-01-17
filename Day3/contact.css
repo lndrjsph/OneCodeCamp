@@ -1,0 +1,59 @@
+
+form { max-width:420px; margin:50px auto; }
+
+body {
+    background-image: url(/Day3/images/top.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 1px;
+}
+
+.feedback-input {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: #FAEDCD;
+  border:2px solid 	#414a4c;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:1px solid #D4A373; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family:'Poppins', sans-serif;
+  width: 100%;
+  background:#D4A373;
+  border-radius:5px;
+  border:2px solid #414a4c;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#FAEDCD; }
+
+h1 {
+	font-family:'Poppins', sans-serif;
+	text-align: center;
+	font-size: 60px;
+	color: #D4A373;
+}
+
